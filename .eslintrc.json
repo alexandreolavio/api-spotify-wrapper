@@ -1,0 +1,10 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+        "import",
+        "chai-friendly"
+    ],
+    "rules": {
+      "no-unused-expressions": 0
+  }
+}

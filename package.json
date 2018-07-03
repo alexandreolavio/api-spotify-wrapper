@@ -1,0 +1,25 @@
+{
+  "name": "spotify-wrapper",
+  "version": "1.0.0",
+  "description": "Curso de JS com TDD na prática Udemy.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandreolavio/spotify-wrapper.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Alexandre Olavio <alexandrej.olavio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandreolavio/spotify-wrapper/issues"
+  },
+  "homepage": "https://github.com/alexandreolavio/spotify-wrapper#readme",
+  "devDependencies": {
+  }
+}
