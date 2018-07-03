@@ -4,6 +4,9 @@
   "description": "Curso de JS com TDD na prática Udemy.",
   "main": "index.js",
   "scripts": {
+    "clear": "rimraf lib",
+    "lint": "./node_modules/.bin/eslint src/app/**/*.js",
+    "prepush": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,13 @@
   },
   "homepage": "https://github.com/alexandreolavio/spotify-wrapper#readme",
   "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "husky": "^0.11.9",
+    "rimraf": "^2.6.1"
   }
 }
