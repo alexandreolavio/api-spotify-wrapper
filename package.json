@@ -1,5 +1,5 @@
 {
-  "name": "spotify-wrapper",
+  "name": "api-spotify-wrapper",
   "version": "1.0.0",
   "description": "Curso de JS com TDD na prática Udemy.",
   "main": "index.js",
